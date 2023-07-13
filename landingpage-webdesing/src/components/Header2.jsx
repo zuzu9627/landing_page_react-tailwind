@@ -25,16 +25,16 @@ const Header2 = () => {
       >
         {/* al momento de hacerlo responsive ,el orden (aunque antes se haya diseñado para laptop)  se conviene a que los valores quedarán para todos los portview a menos que se especifique a que pantalla cambia ejemplo xl:flex-row */}
         {/* Usamos { `dfsfsfd`} cuando queremos combinar con variables */}
-        <a href="#" className="">
+        <a href="#" className="nav_a">
           Home
         </a>
-        <a href="#" className="">
+        <a href="#" className="nav_a">
           About us
         </a>
-        <a href="#" className="">
+        <a href="#" className="nav_a">
           Services
         </a>
-        <a href="#" className="">
+        <a href="#" className="nav_a">
           Products
         </a>
       </nav>
