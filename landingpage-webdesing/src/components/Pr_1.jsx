@@ -6,8 +6,8 @@ const Pr_1 = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="overflow-hidden relative flex flex-col  w-full h-[100vh] ">
-      <div className="bg-[url(https://file.rendit.io/n/Ox0uyT8qDYqqfx8xY8aw.png)] bg-cover bg-50%_50%  flex flex-col gap-10  mb-10">
+    <div className="overflow-hidden relative flex flex-col  w-full  ">
+      <div className="bg-[url(https://file.rendit.io/n/Ox0uyT8qDYqqfx8xY8aw.png)] bg-cover bg-50%_50%  flex flex-col gap-10  mb-10 " >
         <nav
           className={` flex items-center justify-center flex-row gap-20 mb-40 ml-4 fixed w-[80%] md:w-[40%] xl:w-full h-full ${
             showMenu ? "left-0" : "-left-full"
@@ -29,6 +29,7 @@ const Pr_1 = () => {
           <a href="#" className="nav_a">
             Contact
           </a>
+
         </nav>
         <button
           onClick={() => setShowMenu(!showMenu)}
